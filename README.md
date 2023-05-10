@@ -24,7 +24,7 @@ The main takeaways from the EDA are the ones below:
 **No strong correlation between numerical features**:
 
 <div align="center">
-  <img src="heatmap.png" alt="Heatmap" width="500"/>
+  <img src="heatmap.png" alt="Heatmap" width="800"/>
 </div>
 
 
