@@ -35,7 +35,7 @@ The main takeaways from the EDA are the ones below:
 
 **Older people are more likely to have diabetes**:
 
-<img src="images/images/Age_vs_numerical_cols.png" alt="age_vs_feature" width="800"/>
+<img src="images/Age_vs_numerical_cols.png" alt="age_vs_feature" width="800"/>
 
 
 #### (2) Testing the validity of variables:
