@@ -110,3 +110,9 @@ Activate it and install required packages
 pip install -r requirements.txt
 ````
 
+## Conclusion
+
+The results of evaluating the performance of the five classification algorithms show that **RF and XGB algorithms perform better than others** across all five metrics, except for the AUC metric for the XGB algorithm, which performed only slightly better than SVM. On the other hand, **KNN and LR had the poorest performance** compared to other models.
+
+It can be concluded that RF and XGB are the best performing models, as they have almost the same performance results, with XGB having better score and fit times compared to RF. However, the best models only achieved a recall of 73%, which means that they were not able to achieve a higher recall or make fewer `False Negatives`, which would be necessary for a diabetes classification model in practice. One of the reasons for this is the imbalanced dataset, which only contained approximately 9% of samples that classified people as having diabetes. To achieve higher recall, the `scale_pos_weight` hyperparameter of XGBoost can be used, which weighs error gradients so that a higher penalty is given to errors concerning the minority class.
+
