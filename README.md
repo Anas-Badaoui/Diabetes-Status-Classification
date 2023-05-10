@@ -23,24 +23,20 @@ The main takeaways from the EDA are the ones below:
 
 **No strong correlation between numerical features**:
 
-<div align="center">
-  <img src="heatmap.png" alt="Heatmap" width="800"/>
-</div>
+<img src="heatmap.png" alt="Heatmap" width="800"/>
+
 
 
 **People with diabetes tend to have higher levels of BMI, HbA1c, and blood glucose**:
 
-<div align="center">
-  <img src="Histplots_numerical_cols.png" alt="Histplots" width="500"/>
-</div>
-<div align="center">
-  <img src="blood_glucose_hba1c_vs_diabetes.png" alt="blood_glucose" width="500"/>
-</div>
+<img src="Histplots_numerical_cols.png" alt="Histplots" width="800"/>
+
+<img src="blood_glucose_hba1c_vs_diabetes.png" alt="blood_glucose" width="800"/>
 
 **Older people are more likely to have diabetes**:
-<div align="center">
-  <img src="Age_vs_numerical_cols.png" alt="age_vs_feature" width="500"/>
-</div>
+
+<img src="Age_vs_numerical_cols.png" alt="age_vs_feature" width="800"/>
+
 
 #### (2) Testing the validity of variables:
 
@@ -70,9 +66,7 @@ Let's now select only the most relevant variables by using the weights given by 
 
 Feature importances are provided by the fitted attribute feature_importances_ and they are computed as the **mean and standard deviation** of accumulation of the `impurity decrease` within each tree:
 
-<div align="center">
-  <img src="feature_importance_rf.png" alt="feature_importance" width="500"/>
-</div>
+<img src="feature_importance_rf.png" alt="feature_importance" width="800"/>
 
 We can see that **four features** stand out in terms of their importance compared to the other features. Therefore, these will be selected to train the classification models.
 
@@ -96,15 +90,12 @@ I evaluated their performance by analyzing 5 metrics:
 
 Below are the results:
 
-<div align="center">
-  <img src="Algorithm_comparison.png" alt="Algorithm_comparison" width="500"/>
-</div>
+<img src="Algorithm_comparison.png" alt="Algorithm_comparison" width="800"/>
 
 I also examined the time complexity involved in fitting the models and making predictions using the models:
 
-<div align="center">
-  <img src="time_complexity_comparison.png" alt="time_complexity" width="500"/>
-</div>
+<img src="time_complexity_comparison.png" alt="time_complexity" width="800"/>
+
 
 ### Software And Tools Requirements
 
